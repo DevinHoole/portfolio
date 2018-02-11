@@ -1,8 +1,11 @@
-
+/*Nav bar start */
  #navbar ul 
 { 
+	height: 55px;
+	/*width:1300px;*/
 	margin: 0; 
-	padding: 5px; 
+	padding: 5px;
+	list-style-type: none;
 	text-align: center; 
 	background-color: #000; 
 } 
@@ -25,3 +28,37 @@
 	color: #000; 
 	background-color: #fff; 
 }
+/*Nav bar end*/
+
+/* Intro tab start*/
+#intro
+{
+	background-color: #c1baba;
+	width:1424px;
+	height:500px;
+}
+
+.container h1
+{
+	margin:0;
+	text-align:center;
+}
+/* Intro tab end*/
+
+/* Projects tab start*/
+#projects
+{
+	background-color: #ffeb3b;
+	width:1424px;
+	height:500px;
+}
+/* Projects tab end*/
+
+/* Contact tab start*/
+#contact
+{
+	background-color: #4caf50;
+	width:1424px;
+	height:500px;
+}
+/* Contact tab end*/
