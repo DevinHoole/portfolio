@@ -1,12 +1,12 @@
 /*Nav bar start */
 
-/*#navbar
+#navbar
 {
 	position: fixed;
 	top: 0;
-	width:1300px;
+	width:98.8%
+	
 }
-*/
  #navbar ul 
 { 
 	height: 80px;
@@ -36,6 +36,16 @@
 	background-color: #fff; 
 }
 /*Nav bar end*/
+
+.docScroller
+{
+	
+  scroll-snap-points-y: repeat(100%);
+  scroll-snap-type: mandatory;
+  scroll-snap-destination: 100% 0%;
+}
+
+
 
 /* Intro tab start*/
 #intro
