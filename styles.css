@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100);
+
+body 
+{
+  font-family: 'Lato';
+  font-weight: 100;
+  font-size: 25px;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.panel_container 
+{
+    font-size: 20px;
+    position: absolute;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+section 
+{
+    height: 100%;
+}
+
+/*Nav bar start */
+#navbar
+{
+  top: 0;
+  width:100%
+  position:fixed;
+  
+}
+ #navbar ul 
+{ 
+  height: 80px;
+  margin: 0; 
+  padding: 5px;
+  list-style-type: none;
+  text-align: center; 
+  background-color: #000; 
+} 
+ 
+#navbar ul li 
+{  
+  display: inline; 
+} 
+ 
+#navbar ul li a 
+{ 
+  text-decoration: none; 
+  padding: .2em 1em; 
+  color: #fff; 
+  background-color: #000; 
+} 
+ 
+#navbar ul li a:hover 
+{ 
+  color: #000; 
+  background-color: #fff; 
+}
+/*Nav bar end*/
+
+
+/* Intro tab start*/
+#intro 
+{
+  background: #00A7E1;
+}
+
+.container h1
+{
+  margin:0;
+  text-align:center;
+}
+/* Intro tab end*/
+
+/* Projects tab start*/
+#projects 
+{
+  background: #0076BE;
+}
+
+.container-rows
+{
+  float:left;
+  width:33.33%;
+}
+
+#projects .container-rows a
+{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    text-align:center;
+
+}
+/* Projects tab end*/
+
+
+/* Contact tab start*/
+#contact 
+{
+  background: #00B4AA;
+}
+
+#contact h1
+{
+  margin: 0px;
+}
+/* Contact tab end*/
+
+
+
